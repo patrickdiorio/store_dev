@@ -1,0 +1,9 @@
+{
+	"name": "adf-store-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8c98594d-7f73-404a-b82f-f576a1561cd2",
+		"tenantId": "d16f0536-3c2f-4035-887f-8949bacfacfd"
+	}
+}
