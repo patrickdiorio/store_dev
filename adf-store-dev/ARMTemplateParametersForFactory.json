@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-store-dev"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsspacex.dfs.core.windows.net/"
+		},
+		"GabrielSena_properties_typeProperties_baseUrl": {
+			"value": "https://kvstoredev.vault.azure.net/"
+		},
+		"ls_databricks_properties_typeProperties_existingClusterId": {
+			"value": "0709-123013-3nxxijia"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://adlsstoredev.dfs.core.windows.net/"
+		},
+		"trigger_store_pedidos_properties_typeProperties_scope": {
+			"value": "/subscriptions/d23e7f59-09d7-417d-a6a8-78eb59751d65/resourceGroups/rg_store_dev/providers/Microsoft.Storage/storageAccounts/adlsstoredev"
+		}
+	}
+}
