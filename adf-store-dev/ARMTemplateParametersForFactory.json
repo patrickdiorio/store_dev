@@ -5,12 +5,6 @@
 		"factoryName": {
 			"value": "adf-store-dev"
 		},
-		"AzureDataLakeStorage1_accountKey": {
-			"value": ""
-		},
-		"AzureDataLakeStorage1_properties_typeProperties_url": {
-			"value": "https://adlsspacex.dfs.core.windows.net/"
-		},
 		"ls_databricks_properties_typeProperties_existingClusterId": {
 			"value": "0709-123013-3nxxijia"
 		},
