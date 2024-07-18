@@ -15,10 +15,6 @@
 			"type": "string",
 			"defaultValue": "https://adlsspacex.dfs.core.windows.net/"
 		},
-		"GabrielSena_properties_typeProperties_baseUrl": {
-			"type": "string",
-			"defaultValue": "https://kvstoredev.vault.azure.net/"
-		},
 		"ls_databricks_properties_typeProperties_existingClusterId": {
 			"type": "string",
 			"defaultValue": "0709-123013-3nxxijia"
@@ -498,19 +494,6 @@
 						"type": "SecureString",
 						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
 					}
-				}
-			},
-			"dependsOn": []
-		},
-		{
-			"name": "[concat(parameters('factoryName'), '/GabrielSena')]",
-			"type": "Microsoft.DataFactory/factories/linkedServices",
-			"apiVersion": "2018-06-01",
-			"properties": {
-				"annotations": [],
-				"type": "AzureKeyVault",
-				"typeProperties": {
-					"baseUrl": "[parameters('GabrielSena_properties_typeProperties_baseUrl')]"
 				}
 			},
 			"dependsOn": []

@@ -15,10 +15,6 @@
 			"type": "string",
 			"defaultValue": "https://adlsspacex.dfs.core.windows.net/"
 		},
-		"GabrielSena_properties_typeProperties_baseUrl": {
-			"type": "string",
-			"defaultValue": "https://kvstoredev.vault.azure.net/"
-		},
 		"ls_databricks_properties_typeProperties_existingClusterId": {
 			"type": "string",
 			"defaultValue": "0709-123013-3nxxijia"
@@ -63,9 +59,6 @@
 					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
-					},
-					"GabrielSena_properties_typeProperties_baseUrl": {
-						"value": "[parameters('GabrielSena_properties_typeProperties_baseUrl')]"
 					},
 					"ls_databricks_properties_typeProperties_existingClusterId": {
 						"value": "[parameters('ls_databricks_properties_typeProperties_existingClusterId')]"
